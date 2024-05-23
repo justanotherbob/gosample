@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_justanotherbob_gosample_1716467600072-push-trigger-input-set
+  identifier: Build_justanotherbob_gosample_1716467600072pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: harnesstest
+  pipeline:
+    identifier: Build_justanotherbob_gosample_1716467600072
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
