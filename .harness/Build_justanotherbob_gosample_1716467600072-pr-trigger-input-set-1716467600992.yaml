@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_justanotherbob_gosample_1716467600072-pr-trigger-input-set
+  identifier: Build_justanotherbob_gosample_1716467600072prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: harnesstest
+  pipeline:
+    identifier: Build_justanotherbob_gosample_1716467600072
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
